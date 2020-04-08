@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test verbose="2" preserve-order="true"
+          name="/Users/yoodahun/Documents/Github/Java/Selenium WebDriver with Java/maven_practice">
+        <classes>
+            <class name="org.example.AppiumTest"/>
+            <class name="org.example.RestAPITest"/>
+            <class name="org.example.SeleniumTest"/>
+        </classes>
+    </test>
+</suite>
